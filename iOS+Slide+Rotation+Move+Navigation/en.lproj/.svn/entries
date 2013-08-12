@@ -1,0 +1,42 @@
+10
+
+dir
+0
+https://github.com/AlexDag/Simple-iOS-Slide-Rotation-Navigation.git/trunk/iOS+Slide+Rotation+Move+Navigation/en.lproj
+https://github.com/AlexDag/Simple-iOS-Slide-Rotation-Navigation.git
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+982d6730-b6f4-01aa-8529-ce57b7db7bff
+
+InfoPlist.strings
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
