@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAE651E17B5E7FF00ECDD21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAE651D17B5E7FF00ECDD21 /* UIKit.framework */; };
+		FAAE652017B5E7FF00ECDD21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAE651F17B5E7FF00ECDD21 /* Foundation.framework */; };
+		FAAE652217B5E7FF00ECDD21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAE652117B5E7FF00ECDD21 /* CoreGraphics.framework */; };
+		FAAE652417B5E7FF00ECDD21 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAE652317B5E7FF00ECDD21 /* CoreData.framework */; };
+		FAAE652A17B5E7FF00ECDD21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAAE652817B5E7FF00ECDD21 /* InfoPlist.strings */; };
+		FAAE652C17B5E7FF00ECDD21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAE652B17B5E7FF00ECDD21 /* main.m */; };
+		FAAE653217B5E7FF00ECDD21 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAE653117B5E7FF00ECDD21 /* Default.png */; };
+		FAAE653417B5E7FF00ECDD21 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAE653317B5E7FF00ECDD21 /* Default@2x.png */; };
+		FAAE653617B5E7FF00ECDD21 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAE653517B5E7FF00ECDD21 /* Default-568h@2x.png */; };
+		FAAE653917B5E7FF00ECDD21 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAE653717B5E7FF00ECDD21 /* MainStoryboard.storyboard */; };
+		FAAE653C17B5E7FF00ECDD21 /* iOS_Slide_Rotation_Move_Navigation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAAE653A17B5E7FF00ECDD21 /* iOS_Slide_Rotation_Move_Navigation.xcdatamodeld */; };
+		FAAE654A17B5E80000ECDD21 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAE654917B5E80000ECDD21 /* SenTestingKit.framework */; };
+		FAAE654B17B5E80000ECDD21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAE651D17B5E7FF00ECDD21 /* UIKit.framework */; };
+		FAAE654C17B5E80000ECDD21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAE651F17B5E7FF00ECDD21 /* Foundation.framework */; };
+		FAAE654D17B5E80000ECDD21 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAE652317B5E7FF00ECDD21 /* CoreData.framework */; };
+		FAAE655517B5E80000ECDD21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAAE655317B5E80000ECDD21 /* InfoPlist.strings */; };
+		FAAE655817B5E80000ECDD21 /* iOS_Slide_Rotation_Move_NavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAE655717B5E80000ECDD21 /* iOS_Slide_Rotation_Move_NavigationTests.m */; };
+		FAAE656C17B5E8A800ECDD21 /* ASAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAE656217B5E8A800ECDD21 /* ASAppDelegate.m */; };
+		FAAE656D17B5E8A800ECDD21 /* ASMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAE656417B5E8A800ECDD21 /* ASMainViewController.m */; };
+		FAAE656E17B5E8A800ECDD21 /* ASPlayCHILDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAE656617B5E8A800ECDD21 /* ASPlayCHILDViewController.m */; };
+		FAAE656F17B5E8A800ECDD21 /* ASPlayParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAE656817B5E8A800ECDD21 /* ASPlayParentViewController.m */; };
+		FAAE657017B5E8A800ECDD21 /* ASPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAAE656A17B5E8A800ECDD21 /* ASPlayViewController.m */; };
+		FAAE657217B5EA2000ECDD21 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAAE657117B5EA2000ECDD21 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAAE654E17B5E80000ECDD21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAAE651217B5E7FF00ECDD21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAE651917B5E7FF00ECDD21;
+			remoteInfo = "iOS+Slide+Rotation+Move+Navigation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAAE651A17B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS+Slide+Rotation+Move+Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAE651D17B5E7FF00ECDD21 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAAE651F17B5E7FF00ECDD21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAAE652117B5E7FF00ECDD21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAAE652317B5E7FF00ECDD21 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAAE652717B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS+Slide+Rotation+Move+Navigation-Info.plist"; sourceTree = "<group>"; };
+		FAAE652917B5E7FF00ECDD21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAAE652B17B5E7FF00ECDD21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAAE652D17B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS+Slide+Rotation+Move+Navigation-Prefix.pch"; sourceTree = "<group>"; };
+		FAAE653117B5E7FF00ECDD21 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FAAE653317B5E7FF00ECDD21 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FAAE653517B5E7FF00ECDD21 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAAE653817B5E7FF00ECDD21 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FAAE653B17B5E7FF00ECDD21 /* iOS_Slide_Rotation_Move_Navigation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Slide_Rotation_Move_Navigation.xcdatamodel; sourceTree = "<group>"; };
+		FAAE654817B5E80000ECDD21 /* iOS+Slide+Rotation+Move+NavigationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS+Slide+Rotation+Move+NavigationTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAE654917B5E80000ECDD21 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FAAE655217B5E80000ECDD21 /* iOS+Slide+Rotation+Move+NavigationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS+Slide+Rotation+Move+NavigationTests-Info.plist"; sourceTree = "<group>"; };
+		FAAE655417B5E80000ECDD21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAAE655617B5E80000ECDD21 /* iOS_Slide_Rotation_Move_NavigationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_Slide_Rotation_Move_NavigationTests.h; sourceTree = "<group>"; };
+		FAAE655717B5E80000ECDD21 /* iOS_Slide_Rotation_Move_NavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Slide_Rotation_Move_NavigationTests.m; sourceTree = "<group>"; };
+		FAAE656117B5E8A800ECDD21 /* ASAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAppDelegate.h; sourceTree = "<group>"; };
+		FAAE656217B5E8A800ECDD21 /* ASAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAppDelegate.m; sourceTree = "<group>"; };
+		FAAE656317B5E8A800ECDD21 /* ASMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASMainViewController.h; sourceTree = "<group>"; };
+		FAAE656417B5E8A800ECDD21 /* ASMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASMainViewController.m; sourceTree = "<group>"; };
+		FAAE656517B5E8A800ECDD21 /* ASPlayCHILDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPlayCHILDViewController.h; sourceTree = "<group>"; };
+		FAAE656617B5E8A800ECDD21 /* ASPlayCHILDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPlayCHILDViewController.m; sourceTree = "<group>"; };
+		FAAE656717B5E8A800ECDD21 /* ASPlayParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPlayParentViewController.h; sourceTree = "<group>"; };
+		FAAE656817B5E8A800ECDD21 /* ASPlayParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPlayParentViewController.m; sourceTree = "<group>"; };
+		FAAE656917B5E8A800ECDD21 /* ASPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPlayViewController.h; sourceTree = "<group>"; };
+		FAAE656A17B5E8A800ECDD21 /* ASPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPlayViewController.m; sourceTree = "<group>"; };
+		FAAE657117B5EA2000ECDD21 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAE651717B5E7FF00ECDD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAE657217B5EA2000ECDD21 /* QuartzCore.framework in Frameworks */,
+				FAAE651E17B5E7FF00ECDD21 /* UIKit.framework in Frameworks */,
+				FAAE652017B5E7FF00ECDD21 /* Foundation.framework in Frameworks */,
+				FAAE652217B5E7FF00ECDD21 /* CoreGraphics.framework in Frameworks */,
+				FAAE652417B5E7FF00ECDD21 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAE654417B5E80000ECDD21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAE654A17B5E80000ECDD21 /* SenTestingKit.framework in Frameworks */,
+				FAAE654B17B5E80000ECDD21 /* UIKit.framework in Frameworks */,
+				FAAE654C17B5E80000ECDD21 /* Foundation.framework in Frameworks */,
+				FAAE654D17B5E80000ECDD21 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAE651117B5E7FF00ECDD21 = {
+			isa = PBXGroup;
+			children = (
+				FAAE657117B5EA2000ECDD21 /* QuartzCore.framework */,
+				FAAE656117B5E8A800ECDD21 /* ASAppDelegate.h */,
+				FAAE656217B5E8A800ECDD21 /* ASAppDelegate.m */,
+				FAAE656317B5E8A800ECDD21 /* ASMainViewController.h */,
+				FAAE656417B5E8A800ECDD21 /* ASMainViewController.m */,
+				FAAE656517B5E8A800ECDD21 /* ASPlayCHILDViewController.h */,
+				FAAE656617B5E8A800ECDD21 /* ASPlayCHILDViewController.m */,
+				FAAE656717B5E8A800ECDD21 /* ASPlayParentViewController.h */,
+				FAAE656817B5E8A800ECDD21 /* ASPlayParentViewController.m */,
+				FAAE656917B5E8A800ECDD21 /* ASPlayViewController.h */,
+				FAAE656A17B5E8A800ECDD21 /* ASPlayViewController.m */,
+				FAAE652517B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation */,
+				FAAE655017B5E80000ECDD21 /* iOS+Slide+Rotation+Move+NavigationTests */,
+				FAAE651C17B5E7FF00ECDD21 /* Frameworks */,
+				FAAE651B17B5E7FF00ECDD21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAE651B17B5E7FF00ECDD21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE651A17B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation.app */,
+				FAAE654817B5E80000ECDD21 /* iOS+Slide+Rotation+Move+NavigationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAE651C17B5E7FF00ECDD21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE651D17B5E7FF00ECDD21 /* UIKit.framework */,
+				FAAE651F17B5E7FF00ECDD21 /* Foundation.framework */,
+				FAAE652117B5E7FF00ECDD21 /* CoreGraphics.framework */,
+				FAAE652317B5E7FF00ECDD21 /* CoreData.framework */,
+				FAAE654917B5E80000ECDD21 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAAE652517B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE653717B5E7FF00ECDD21 /* MainStoryboard.storyboard */,
+				FAAE653A17B5E7FF00ECDD21 /* iOS_Slide_Rotation_Move_Navigation.xcdatamodeld */,
+				FAAE652617B5E7FF00ECDD21 /* Supporting Files */,
+			);
+			path = "iOS+Slide+Rotation+Move+Navigation";
+			sourceTree = "<group>";
+		};
+		FAAE652617B5E7FF00ECDD21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE652717B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation-Info.plist */,
+				FAAE652817B5E7FF00ECDD21 /* InfoPlist.strings */,
+				FAAE652B17B5E7FF00ECDD21 /* main.m */,
+				FAAE652D17B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation-Prefix.pch */,
+				FAAE653117B5E7FF00ECDD21 /* Default.png */,
+				FAAE653317B5E7FF00ECDD21 /* Default@2x.png */,
+				FAAE653517B5E7FF00ECDD21 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAAE655017B5E80000ECDD21 /* iOS+Slide+Rotation+Move+NavigationTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE655617B5E80000ECDD21 /* iOS_Slide_Rotation_Move_NavigationTests.h */,
+				FAAE655717B5E80000ECDD21 /* iOS_Slide_Rotation_Move_NavigationTests.m */,
+				FAAE655117B5E80000ECDD21 /* Supporting Files */,
+			);
+			path = "iOS+Slide+Rotation+Move+NavigationTests";
+			sourceTree = "<group>";
+		};
+		FAAE655117B5E80000ECDD21 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAAE655217B5E80000ECDD21 /* iOS+Slide+Rotation+Move+NavigationTests-Info.plist */,
+				FAAE655317B5E80000ECDD21 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAE651917B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAE655B17B5E80000ECDD21 /* Build configuration list for PBXNativeTarget "iOS+Slide+Rotation+Move+Navigation" */;
+			buildPhases = (
+				FAAE651617B5E7FF00ECDD21 /* Sources */,
+				FAAE651717B5E7FF00ECDD21 /* Frameworks */,
+				FAAE651817B5E7FF00ECDD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS+Slide+Rotation+Move+Navigation";
+			productName = "iOS+Slide+Rotation+Move+Navigation";
+			productReference = FAAE651A17B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAAE654717B5E80000ECDD21 /* iOS+Slide+Rotation+Move+NavigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAE655E17B5E80000ECDD21 /* Build configuration list for PBXNativeTarget "iOS+Slide+Rotation+Move+NavigationTests" */;
+			buildPhases = (
+				FAAE654317B5E80000ECDD21 /* Sources */,
+				FAAE654417B5E80000ECDD21 /* Frameworks */,
+				FAAE654517B5E80000ECDD21 /* Resources */,
+				FAAE654617B5E80000ECDD21 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAE654F17B5E80000ECDD21 /* PBXTargetDependency */,
+			);
+			name = "iOS+Slide+Rotation+Move+NavigationTests";
+			productName = "iOS+Slide+Rotation+Move+NavigationTests";
+			productReference = FAAE654817B5E80000ECDD21 /* iOS+Slide+Rotation+Move+NavigationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAE651217B5E7FF00ECDD21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Asem;
+			};
+			buildConfigurationList = FAAE651517B5E7FF00ECDD21 /* Build configuration list for PBXProject "iOS+Slide+Rotation+Move+Navigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAAE651117B5E7FF00ECDD21;
+			productRefGroup = FAAE651B17B5E7FF00ECDD21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAE651917B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation */,
+				FAAE654717B5E80000ECDD21 /* iOS+Slide+Rotation+Move+NavigationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAAE651817B5E7FF00ECDD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAE652A17B5E7FF00ECDD21 /* InfoPlist.strings in Resources */,
+				FAAE653217B5E7FF00ECDD21 /* Default.png in Resources */,
+				FAAE653417B5E7FF00ECDD21 /* Default@2x.png in Resources */,
+				FAAE653617B5E7FF00ECDD21 /* Default-568h@2x.png in Resources */,
+				FAAE653917B5E7FF00ECDD21 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAE654517B5E80000ECDD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAE655517B5E80000ECDD21 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FAAE654617B5E80000ECDD21 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAE651617B5E7FF00ECDD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAE652C17B5E7FF00ECDD21 /* main.m in Sources */,
+				FAAE653C17B5E7FF00ECDD21 /* iOS_Slide_Rotation_Move_Navigation.xcdatamodeld in Sources */,
+				FAAE656C17B5E8A800ECDD21 /* ASAppDelegate.m in Sources */,
+				FAAE656D17B5E8A800ECDD21 /* ASMainViewController.m in Sources */,
+				FAAE656E17B5E8A800ECDD21 /* ASPlayCHILDViewController.m in Sources */,
+				FAAE656F17B5E8A800ECDD21 /* ASPlayParentViewController.m in Sources */,
+				FAAE657017B5E8A800ECDD21 /* ASPlayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAE654317B5E80000ECDD21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAE655817B5E80000ECDD21 /* iOS_Slide_Rotation_Move_NavigationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAAE654F17B5E80000ECDD21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAE651917B5E7FF00ECDD21 /* iOS+Slide+Rotation+Move+Navigation */;
+			targetProxy = FAAE654E17B5E80000ECDD21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAAE652817B5E7FF00ECDD21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAE652917B5E7FF00ECDD21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAAE653717B5E7FF00ECDD21 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAE653817B5E7FF00ECDD21 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		FAAE655317B5E80000ECDD21 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAAE655417B5E80000ECDD21 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAAE655917B5E80000ECDD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAAE655A17B5E80000ECDD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAAE655C17B5E80000ECDD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS+Slide+Rotation+Move+Navigation/iOS+Slide+Rotation+Move+Navigation-Prefix.pch";
+				INFOPLIST_FILE = "iOS+Slide+Rotation+Move+Navigation/iOS+Slide+Rotation+Move+Navigation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAAE655D17B5E80000ECDD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS+Slide+Rotation+Move+Navigation/iOS+Slide+Rotation+Move+Navigation-Prefix.pch";
+				INFOPLIST_FILE = "iOS+Slide+Rotation+Move+Navigation/iOS+Slide+Rotation+Move+Navigation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAAE655F17B5E80000ECDD21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS+Slide+Rotation+Move+Navigation.app/iOS+Slide+Rotation+Move+Navigation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS+Slide+Rotation+Move+Navigation/iOS+Slide+Rotation+Move+Navigation-Prefix.pch";
+				INFOPLIST_FILE = "iOS+Slide+Rotation+Move+NavigationTests/iOS+Slide+Rotation+Move+NavigationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FAAE656017B5E80000ECDD21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS+Slide+Rotation+Move+Navigation.app/iOS+Slide+Rotation+Move+Navigation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS+Slide+Rotation+Move+Navigation/iOS+Slide+Rotation+Move+Navigation-Prefix.pch";
+				INFOPLIST_FILE = "iOS+Slide+Rotation+Move+NavigationTests/iOS+Slide+Rotation+Move+NavigationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAE651517B5E7FF00ECDD21 /* Build configuration list for PBXProject "iOS+Slide+Rotation+Move+Navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAE655917B5E80000ECDD21 /* Debug */,
+				FAAE655A17B5E80000ECDD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAE655B17B5E80000ECDD21 /* Build configuration list for PBXNativeTarget "iOS+Slide+Rotation+Move+Navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAE655C17B5E80000ECDD21 /* Debug */,
+				FAAE655D17B5E80000ECDD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAE655E17B5E80000ECDD21 /* Build configuration list for PBXNativeTarget "iOS+Slide+Rotation+Move+NavigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAE655F17B5E80000ECDD21 /* Debug */,
+				FAAE656017B5E80000ECDD21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAAE653A17B5E7FF00ECDD21 /* iOS_Slide_Rotation_Move_Navigation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAAE653B17B5E7FF00ECDD21 /* iOS_Slide_Rotation_Move_Navigation.xcdatamodel */,
+			);
+			currentVersion = FAAE653B17B5E7FF00ECDD21 /* iOS_Slide_Rotation_Move_Navigation.xcdatamodel */;
+			path = iOS_Slide_Rotation_Move_Navigation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAAE651217B5E7FF00ECDD21 /* Project object */;
+}
