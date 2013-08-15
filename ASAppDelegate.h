@@ -2,7 +2,7 @@
 //  ASAppDelegate.h
 //  
 //
-//  Created by Alex on 4/7/13.
+//  Created by AlexSemeshchenko on 4/7/13.
 //  Copyright (c) 2013 AlexSem. All rights reserved.
 //
 
